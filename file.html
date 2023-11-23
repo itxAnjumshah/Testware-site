@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ccaty 2nd</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="bg-[#004445] text-white flex  items-center justify-between w-full bg-fixed">
+        <div class="text-white text-3xl font-bold py-4  ">Ccaty</div> <!--ccaty logo  -->
+        <ul class="main-nav py-4 space-x-4 md:space-x-11 md:flex hidden text-xl my-auto"><!--this is  for  center item in navbar-->
+            <li class="cursor-pointer">Home</li>
+            <li class="cursor-pointer">
+                Resources
+                <ul class="sub-nav">
+                    <li><a href="#">Our company</a></li>
+                    <li><a href="#">Our Vision</a></li>
+                    <li><a href="#">Our team</a></li>
+                </ul>
+            </li>
+
+            <li class="cursor-pointer">
+                Pricing
+                <ul class="sub-nav">
+                    <li><a href="#">link 1</a></li>
+                    <li><a href="#">link 2</a></li>
+                    <li><a href="#">link 3</a></li>
+                </ul>
+            </li> 
+
+
+
+
+            <li class="cursor-pointer">
+                Contact
+                <ul class="sub-nav">
+                    <li><a href="#">link 1</a></li>
+                    <li><a href="#">link 2</a></li>
+                    <li><a href="#">link 3</a></li>
+                </ul>
+            </li>
+            <li class="cursor-pointer">
+                About Us
+                <ul class="sub-nav">
+                    <li><a href="#">link 1</a></li>
+                    <li><a href="#">link 2</a></li>
+                    <li><a href="#">link 3</a></li>
+                </ul>
+            </li>  
+            
+            <li class="cursor-pointer">
+                Menu 
+                <ul class="sub-nav">
+                    <li><a href="#">link 1</a></li>
+                    <li><a href="#">link 2</a></li>
+                    <li><a href="#">link 3</a></li>
+                </ul>
+            </li> 
+            
+
+
+
+
+
+
+        </ul><!--end  of  center  item -->
+<!--start  of third  item in nav  bar -->
+        <ul class="flex py-4 space-x-4 flex-row md:pr-10">
+            <li class="cursor-pointer md:text-xl my-auto">Umer Fayyaz</li>
+<li><img class="w-auto" src="assets/Ellipse 21.png" alt=""></li>
+          
+
+        </ul>
+    </nav> 
+    <div class=" page5   bg-[#004445] w-auto h-full ">
+        <div class="justify-center items-center flex">
+            <div class="slider flex flex-col-reverse md:flex-row  ">
+                <div class="left flex flex-col justify-center items-center md:items-baseline   ">
+                    <h1 class="text-white md:text-5xl text-2xl  md:space-y-5  font-bold ml-1 ">
+                        Invite candidates your way
+                        </h1>
+                    <p class="text-white  mt-4">After your purchase, you may take the tests
+                        as many times as you want, 
+                        each re-take of the exam generates 50 new questions </p>
+                        <button
+                        class=" bg-white text-[#004445] md:px-12 py-2 font-medium my-8 rounded-3xl hover:bg-red-500 ">
+                        invite candidate</button>                   
+                </div>
+                <div class="center ">
+                    <img class="h-64 sm:mt-24 md:ml-10 sm:-mb-48 " src="page5 imgbg remove.png" >                
+                <div class=" ">
+                    <img class="relative w-auto" src="chaha pic.png" alt="">
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!--start of  2nd  page-->
+<div  class="bg-white">
+    
+<h1 class="m-auto  text-4xl font-bold text-[#004445] text-center mt-6">Start for Quiz Test</h1>
+
+<div class="md:grid md:grid-cols-2  grid-cols-1">
+
+    
+
+
+<div>
+    <button class="accordion flex items-center"><img src="assets/Component 37.png" alt=""> Popular </button>
+<div class="panel shadow">
+    <h3 class="text-3xl pt-12 text-black font-bold">Culture add</h3>
+    <p class="pt-5 text-xl">This culture add test assesses how a candidate’s values and behaviors align
+        with your organization values and the behaviors that would make your ideal
+        hire successful in a specific role, based on a customized survey you fill out</p>
+
+        <div class="text-left flex pt-12"><img src="assets/Component 39.png" alt="">10 min</div>
+        
+    </div>
+
+<button class="accordion">Section 1</button>
+<div class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+</div>
+
+</div>
+
+
+</div>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
+
+</body>
+</html>
